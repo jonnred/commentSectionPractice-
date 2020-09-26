@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: rgb(230, 230, 230);
+}
+.registerContainer{
+    position: relative;
+    margin: auto;
+    width: 220px;
+    top:50%;
+    transform: translateY(-50%);
+    box-shadow: rgba(0, 0, 139, 0.205)-5px -5px 5px ,rgba(0, 0, 139, 0.205)5px 5px 5px;
+    background-color: beige;
+
+}
+.registerContainer h3{
+    padding:10px 0px 5px 20px;
+    margin-bottom:10px;
+    background-color: rgba(0, 0, 0, 0.075);
+    color:rgba(50, 50, 50);
+}
+#registerFormContainer input{
+    margin: 2%;
+    border: none;
+    border-bottom: blue solid 1px;
+    background-color: rgba(255, 255, 255, 0.089);
+}
+#submit {
+    color: white;
+    margin-top: 1rem;
+    width: 40%;
+    background-color: blue;
+    padding:2px;
+}
+#registerFormContainer label{
+    color: rgb(99, 159, 161);
+}
+#registerFormContainer{
+    padding:10px 20px 20px 20px ;
+
+}
